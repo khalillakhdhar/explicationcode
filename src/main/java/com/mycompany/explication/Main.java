@@ -4,6 +4,8 @@
  */
 package com.mycompany.explication;
 
+import heritage.Chaise;
+
 /**
  *
  * @author khali
@@ -14,6 +16,9 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Chaise ch1=new Chaise("confort", true, "inconnu", "no def", "none", 1000);
+        //ch1.deplacer("USA", "china");
+        //double x=ch1.taxe();
         // TODO code application logic here
         /*
         int x=7;
