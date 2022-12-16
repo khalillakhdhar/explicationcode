@@ -36,6 +36,13 @@ public class Salaire {
         this.brute = brute;
         this.nom = nom;
     }
+
+    public Salaire() {
+    }
+    
+    
+    
+    
     public double calcultaxe()
     {
     if(this.brute<1000)

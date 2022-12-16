@@ -15,7 +15,7 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        /*
         int x=7;
         float y=1;
         double z=8.345;
@@ -41,7 +41,20 @@ public class Main {
         float cvf=Float.parseFloat(convert);
 
         // Type.parseType => convertit une chaine en nombre
+*/
+        Bouteille b=new Bouteille("Sabrine", "minerale", 700);
+         Bouteille b2=new Bouteille("Jektis", "minerale", 600);
+         b2.setMarque("Safia");
+         System.out.println(b2.getPrix());
+        Laptop asus=new Laptop("asus Gamer MSI", "I7", 6200);
+        System.out.println(b.toString());
+        System.out.println(b2.toString());
 
+        System.out.println(asus.toString());
+        
+        
+        
+        
     }
     
 }
